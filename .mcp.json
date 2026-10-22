@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "llama_cpp-memory": {
+      "type": "stdio",
+      "command": "C:/Users/User/source/repos/repo-memory/.venv/Scripts/python.exe",
+      "args": [
+        "-B",
+        "-m",
+        "repo_memory.server"
+      ],
+      "env": {
+        "REPO_MEMORY_NAME": "llama.cpp",
+        "REPO_MEMORY_DB": "E:/repo-memory/llama_cpp",
+        "PYTHONPATH": "C:/Users/User/source/repos/repo-memory",
+        "REPO_MEMORY_REPO_ROOT": "C:/Users/User/source/repos/llama.cpp"
+      }
+    }
+  }
+}

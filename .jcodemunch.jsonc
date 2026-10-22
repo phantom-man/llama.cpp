@@ -1,0 +1,6 @@
+{
+  // raised from defaults (2000 files / 512KB) for full-repo coverage:
+  // 2846 discoverable files, several backend sources exceed 512KB (ggml-vulkan.cpp etc.)
+  "max_folder_files": 4000,
+  "max_file_size": 4194304
+}
