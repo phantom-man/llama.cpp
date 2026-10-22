@@ -1,0 +1,110 @@
+{
+ "type": "CLEAR",
+ "commit": "2086d4ae8397ebc0ada172f02091f75cf85fe29d",
+ "caller": "zcode",
+ "when": "20261022-154503",
+ "files": {
+  ".githooks/.gitattributes": {
+   "sha": "d59c068482751b998e2701a727932753d63c849ad4220f3194548900c40dd7b7",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".githooks/adversary_audit.py": {
+   "sha": "3e9c4cfd8514dd017edcb0fae5a43b9fb2938bf10daf18c2caf2e2c9e781be76",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".githooks/adversary_baseline": {
+   "sha": "56b33351886ae8b4a8abbeb06d667a0815b2c55731bc4d47fa9d10fcd2e6430d",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".githooks/adversary_rules_epoch": {
+   "sha": "eae894b019c8493c7771ad029132e8be0cc91e45d948c30b75e87358fe5c0ed0",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".githooks/adversary_text_rules_epoch": {
+   "sha": "ff6a6b80da1bddbedc311ebcc6353576754f73043c84e03776d91fbd1250cdcb",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".githooks/post-commit": {
+   "sha": "377b1254489c2fe84091aa3cc269f4083baa3d44d3781e47c635e88249387268",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".githooks/pre-commit": {
+   "sha": "72864701ba348f1f0486994283215aa3dd35341edc15b4ce9276ced457cd32b9",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".githooks/pre-push": {
+   "sha": "8d44759bf78782df62fbdcb27189abfd1b5ea96d03ac7ccd0c8d3c3609d7b761",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".mcp.json": {
+   "sha": "cb64345b90b46955720729c10aff7c0a16aad0860a0233af78376985d2750dcd",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".repo-memory.json": {
+   "sha": "2797bd6c2eee575233345714f6f7db482e7db804a1c452987d307602dcbbfa5b",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  ".zcode/config.json": {
+   "sha": "a1d5e72ee171740f576975cf4f38fdae42d7045182eb75147f8ddccfcf0bd559",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  "tools/zcode_jcm_guard.ps1": {
+   "sha": "57bb467b53fae4d4caef06f4504f8d9bce4340ce36d85b9c8795d0c8e4a0c9d5",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  },
+  "tools/zcode_jcm_mark.ps1": {
+   "sha": "8f9d06d10f1a3cd33394f820e2605156981905342951503ede9940f6b477fa5c",
+   "model": "qwen/qwen3.8-omni-flash",
+   "verdict": "CLEAR",
+   "when": "20261022-153303",
+   "artifact": ".adversary\\reviews\\gate_20261022-153303.md"
+  }
+ },
+ "artifacts": {
+  ".adversary\\reviews\\gate_20261022-153303.md": "model: qwen/qwen3.8-omni-flash | provider: Alibaba | usage: {'prompt_tokens': 30604, 'completion_tokens': 21105, 'total_tokens': 51709, 'cost': 0.01450995, 'is_byok': False, 'prompt_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0, 'audio_tokens': 0, 'video_tokens': 0}, 'cost_details': {'upstream_inference_cost': 0.01450995, 'upstream_inference_prompt_cost': 0.0045906, 'upstream_inference_completions_cost': 0.00991935}, 'completion_tokens_details': {'reasoning_tokens': 20416, 'image_tokens': 0, 'audio_tokens': 0}} | scrubbed: 0 | files: ['.githooks/.gitattributes', '.githooks/adversary_audit.py', '.githooks/adversary_baseline', '.githooks/adversary_rules_epoch', '.githooks/adversary_text_rules_epoch', '.githooks/post-commit', '.githooks/pre-commit', '.githooks/pre-push', '.mcp.json', '.repo-memory.json', '.zcode/config.json', 'tools/zcode_jcm_guard.ps1', 'tools/zcode_jcm_mark.ps1'] | prompt: gate/adversary-review@1 (langfuse) | caller: zcode\n\nLooking at this change set, I need to verify the audit tripwire (`adversary_audit.py`), the git hooks, the ZCode guard/mark PowerShell scripts, and the configuration files for real defects.\n\n**adversary_audit.py review:**\n\n- `_changed_code` diff parsing with `-z` NUL separation: traced through A/M/T (single-path, `i+=2`), R/C (two-path, `i+=3`), D (single-path, `i+=2`), and else (single-path fallback, `i+=2`). The trailing empty token from the final NUL is handled by `if not st: i+=1; continue`. All known git status codes are covered. No desynchronization possible.\n\n- `_epoch` caching: string key for defaults, tuple key for non-defaults \u2014 no collision. `_epoch_uncached` reads from HEAD's tree (not working tree), anchors in history via `--full-history --diff-filter=A` + `merge-base --is-ancestor`. Shallow clones return \"unreadable\" (fail-closed). Malformed hook-names sha \u2192 `merge-base` fails \u2192 \"moved\" (fail-closed). Text-files has explicit format validation; hook-names relies on the ancestry check to fail-closed on garbage. Both paths produce violations in `main`.\n\n- `_verify_chain_mac`: key read, legacy exemption with date normalization, stamp comparison, chain walk, artifact hash verification \u2014 all degrade-to-None on ambiguity (documented threat model: detection not prevention). The `key_created` precedence (note over key file) in the legacy path is within the documented forgery tolerance.\n\n- ROOT baseline / unborn HEAD: `cat-file --batch-all-objects` check correctly distinguishes empty object store from unreachable history. Vacuous `all()` on empty list is correct.\n\n**PowerShell guard review:**\n\n- Verb detection, pattern/target token disambiguation (`$patternTaken`, `$flagPattern`, `$expectValue`), recursive flag regex with `-cmatch` + inline `(?i:)` \u2014 traced through multiple command shapes. The `$absOutside` computation correctly handles Windows drive paths, UNC, POSIX `/c/...` mounts, and `source/repos` exclusion.\n\n- `$cdRepo` detection catches `cd`/`pushd`/`set-location` into repos from outside cwd. Relative cd targets that don't contain `source/repos` are a static-analysis limitation, but `$cwdRepo` covers the case where cwd is already in repos.\n\n- Session marker logic is consistent between guard and mark scripts (same `$sid` fallback, same marker path).\n\n**Hooks and config:**\n\n- `pre-commit`/`pre-push` fail-closed (exit 1) when gate tool missing; `post-commit` warns and exits 0 (commit already done). `.gitattributes` enforces `eol=lf` for shell scripts \u2014 necessary on Windows.\n- `.zcode/config.json` matchers correctly route Read|Bash to guard and Skill|MCP to mark. MCP events hit the documented non-release `exit 0` branch in mark.\n\nNo logic errors, broken call sites, unhandled paths, state races, or contract breaks found that survive verification against the provided bytes.\n\nVERDICT: CLEAR"
+ },
+ "artifacts_sha256": {
+  ".adversary\\reviews\\gate_20261022-153303.md": {
+   "embedded": "6944ff9b252715254d1591b315e3d185844c50c4a3408c822cf581169304425c",
+   "disk": "6944ff9b252715254d1591b315e3d185844c50c4a3408c822cf581169304425c"
+  }
+ },
+ "mac_key_created": "2026-10-22T15:33:52",
+ "mac": "904c69ae4dc6646fd1726e2aaf4d357af961236abd39601263e1aec061451038"
+}
